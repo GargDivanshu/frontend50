@@ -16,7 +16,7 @@ export default function Home() {
 
       <Stat />
 
-      <div className="py-[142px] w-[924px] text-center mx-auto leading-[44px] text-3xl">
+      <div className="py-[142px] w-[924px] min-h-[500px] text-center mx-auto leading-[44px] text-3xl">
         We are changing the way today’s working professionals start their
         content creation journey to build their brand value and become an
         influencer with the power of collaboration

@@ -2,7 +2,7 @@ import React from "react";
 
 const Stat = () => {
   return (
-    <div className="-mt-12 bg-black pb-[220px] min-h-fit rounded-[3.5rem]">
+    <div className="-mt-12 bg-black pb-[220px] min-h-[1000px] rounded-[3.5rem]">
       <h1 className="text-white mb-24 w-[827px] mx-auto text-center pt-[143px] Cabin font-[700] text-3xl">
         Creator landscape is very competitive and below are some of the problems
         faced by <span className="text-[#D540CC]">professionals</span>
