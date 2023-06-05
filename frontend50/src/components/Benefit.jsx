@@ -3,8 +3,8 @@ import React from "react";
 const Benefit = () => {
   return (
     <div className="bg-white">
-      <div className="pt-[100px] p-2 text-center font-bold text-lg">Here are some of the ways you can benefit from our platform</div>
-      <div className="grid grid-cols-2 gap-6 px-auto max-w-[1250px] mx-auto py-[80px]">
+      <div className="pt-[100px] p-2 text-[12px] md:text-[26px] text-center font-bold text-lg">Here are some of the ways you can benefit from our platform</div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 px-auto max-w-[1250px] mx-auto py-[80px]">
         <div className="flex border-2 border-black w-[500px] h-[250px] text-justify p-[37px] items-center mx-auto">
           <div className="justify-center items-center m-auto">
           Try to challenge yourself and enhance your skills by building real

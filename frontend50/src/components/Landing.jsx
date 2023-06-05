@@ -2,13 +2,17 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div className="border-b-[2px] pt-[100px] border-black max-w-screen mx-auto flex flex-col sm:flex-row justify-center">
+    <div className="border-b-[2px] pt-[100px] md:h-[600px] h-fit border-black max-w-screen mx-auto flex flex-col sm:flex-row justify-center">
       
       <div className="mx-auto my-[60px] max-w-fit">
-         <h1 className="text-[33px] sm:text-[55px] DMSerif font-bold leading-[55px] sm:leading-[48px] max-w-[711px] w-[711px] text-center">Supercharge your frontend 
-development skills</h1>
+         <h1 
+         style={{
+          "line-height": "82px",
+         }}
+         className="md:text-[60px] text-[55px] DMSerif font-bold sm:leading-[48px] max-w-[711px] w-[711px] text-center">
+          Supercharge your frontend development skills</h1>
 
-         <p className="my-[10px] text-[23px] font-[400] max-w-[612px] mx-auto w-[612px] text-center">Level up your frontend development skills by recreating real websites from real companies and get rewarded in crypto.</p>
+         <p className="my-[30px] text-[23px] font-[400]  md:max-w-[612px] mx-auto w-[612px] text-center">Level up your frontend development skills by recreating real websites from real companies and get rewarded in crypto.</p>
 
          {/* <p className="my-10px] text-[23px] font-[400]">The perfect type of practice for developers of all skill levels. Are you up for the challenge?</p>
 

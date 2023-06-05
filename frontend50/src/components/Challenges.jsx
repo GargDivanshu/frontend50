@@ -5,12 +5,16 @@ const Challenges = () => {
         <div className="border-b-[2px] pt-[100px] border-black max-w-screen mx-auto flex flex-col sm:flex-row justify-center">
           
           <div className="mx-auto my-[60px] max-w-fit">
-            <div className="flex">
-             <h1 className="text-[33px] sm:text-[55px] DMSerif font-bold leading-9 sm:leading-[48px] max-w-[298px] w-[298px] text-left">Supercharge your frontend 
-    development skills</h1>
+            <div className="flex md:flex-row flex-col">
+             <h1 
+             style={{
+              "line-height": "82px",
+             }}
+             className="text-[42px] md:w-[332px] DMSerif font-bold leading-9 sm:leading-[48px] max-w-[298px] w-[298px] text-left">
+             Are any of these challenges familiar to you as a Frontend Developer?</h1>
 
     <div className=" max-w-[742px] w-[712px]">
-        <div className="px-[10px] py-[10px] border-2 border-black bg-white m-auto mt-3 w-[610px] h-fit items-center text-[20px] font-[400] leading-[21.76px]">
+        <div className="px-[40px] py-[60px] border-2 border-black bg-white m-auto mt-3 w-[610px] h-fit items-center text-[20px] font-[400] leading-[21.76px]">
     1.Don&apos;t have professional experience in frontend development <br/><br/>
     2.Don&apos;t have and are not sure how to make an impressive portfolio <br/><br/>
     3.Not sure what projects to build that can be mentioned on resume <br/><br/>
@@ -19,7 +23,11 @@ const Challenges = () => {
     </div>
     </div>
     </div>
-             <p className="my-[30px] italic text-[23px] font-[400] max-w-[640px] mx-auto w-[640px] text-center">If you&apos;ve got one of these problems it&apos;s time to fix the errors
+             <p 
+             style={{
+              "line-height": "26.11px",
+             }}
+             className="my-[30px] italic text-[23px] font-[400] max-w-[640px] mx-auto w-[640px] text-center">If you&apos;ve got one of these problems it&apos;s time to fix the errors
 you&apos;re making and land the frontend role you always wanted.</p>
     
              {/* <p className="my-10px] text-[23px] font-[400]">The perfect type of practice for developers of all skill levels. Are you up for the challenge?</p>

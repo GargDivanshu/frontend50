@@ -32,7 +32,11 @@ const Offer = () => {
           Say goodbye to capstone projects..
         </h1>
 
-        <p className="text-center text-[20px] w-[658px] max-w-[618px] my-[40px] mx-auto">
+        <p 
+        style={{
+          "line-height": "22px"
+        }}
+        className="text-center text-[20px] w-[658px] max-w-[618px] my-[40px] mx-auto">
           “One of the best advantages pro subscription has to offer you is the code review upon
 completing the challenge and it helped me gain insights on better frontend practices“
         </p>

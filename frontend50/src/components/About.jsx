@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="p-[40px] bg-white border-b-[2px] border-black">
+    <div className="p-[40px] md:h-[490px] h-fit bg-white border-b-[2px] border-black">
       
       <h1 className="DMSerif text-[36px] font-bold max-w-[649px] mx-auto justify-center text-center leading-[35px]">Say goodbye to capstone projects..</h1>
 

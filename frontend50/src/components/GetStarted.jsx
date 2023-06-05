@@ -8,7 +8,11 @@ const GetStarted = () => {
         </div>
 
         <div className="bg-white flex flex-col">
-          <div className="items-center justify-center text-center max-w-[650px] w-[650px] px-8 h-fit m-auto mt-[110px]">
+          <div 
+          style={{
+            "line-height": "22px"
+          }}
+          className="items-center justify-center text-center max-w-[650px] w-[650px] px-8 h-fit m-auto mt-[110px]">
           Build something amazing that makes you stand out and showcase your
 skills by building inspirations that help you understand design, master new
 tools and methods alongside discovering the best development practices
